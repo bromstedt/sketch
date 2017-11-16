@@ -1,0 +1,28 @@
+h1 {
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  width: 960px;
+  height: 960px;
+  margin: 0 auto;
+}
+
+#frame {
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  border: 10px solid white;
+  background-color: white;
+}
+
+.square {
+  box-sizing: border-box;
+  border: .5px solid black;
+  float: left;
+
+}
