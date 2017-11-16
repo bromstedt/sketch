@@ -14,7 +14,7 @@ body {
 
 #frame {
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
   height: 600px;
   border: 10px solid white;
   background-color: white;
