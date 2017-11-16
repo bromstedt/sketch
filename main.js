@@ -1,4 +1,4 @@
-var input = 64;
+var input = 48;
 var size = input*input;
 var side = 600/input;
 
@@ -11,6 +11,9 @@ function makeSquare(){
   square.classList.add('square');
   square.style.height = side + 'px';
   square.style.width = side + 'px';
+  square.addEventListener('mouseover', (e)=>{
+    square.style.backgroundColor = 'black';
+  });
   frame.appendChild(square);
 }
 
