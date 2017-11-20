@@ -9,18 +9,22 @@ reset.addEventListener('click', (e)=>{
 function makeGrid(){
 
   var input = prompt('Squares per side?');
+  //var input = 48;
   var size = input*input;
   var side = 600/input;
+
+  console.log(side);
 
   function makeSquare(){
 
     const square = document.createElement('div');
-    var frame = document.querySelector('#frame');
+    var frame = document.getElementById('frame');
     square.classList.add('square');
     square.style.height = side + 'px';
     square.style.width = side + 'px';
     square.addEventListener('mouseover', (e)=>{
       square.style.backgroundColor = 'black';
+      square.style.border = 'black';
     });
     frame.appendChild(square);
   }
