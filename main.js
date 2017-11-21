@@ -9,11 +9,8 @@ reset.addEventListener('click', (e)=>{
 function makeGrid(){
 
   var input = prompt('Squares per side?');
-  //var input = 48;
   var size = input*input;
-  var side = 600/input;
-
-  console.log(side);
+  var side = 599/input;
 
   function makeSquare(){
 
